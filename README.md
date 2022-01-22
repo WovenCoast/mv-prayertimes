@@ -19,8 +19,8 @@ yarn install mv-prayertimes
 ## Usage
 
 ```js
-import { PrayerTimes } from "mv-prayertimes";
-// const { PrayerTimes } = require("mv-prayertimes");
+import { MVPrayerTimes } from "mv-prayertimes";
+// const { MVPrayerTimes } = require("mv-prayertimes");
 
 const PrayerTimes = new MVPrayerTimes(102); // island id
 const PrayerTimes = new MVPrayerTimes("K. Male"); // atoll and island
