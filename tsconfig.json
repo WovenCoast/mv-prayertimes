@@ -4,9 +4,7 @@
     "esModuleInterop": true,
     "target": "ES5",
     "outDir": "./build",
-    "rootDir": "./src",
-    "declaration": true,
-    "declarationDir": "./types"
+    "rootDir": "./src"
   },
   "exclude": [
     "src/test.js"

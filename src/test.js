@@ -9,10 +9,12 @@ console.log(
   `Next prayer call: ${PrayerTimes.nextPrayer.call} at ${PrayerTimes.nextPrayer.string}`
 );
 
-PrayerTimes.on("prayer", (call) =>
+PrayerTimes.on("prayer", (prayerTime) =>
   console.log(
-    `Prayer Call: ${call}\nNow: ${new Date().getTime()}\nPrayer Time: ${PrayerTimes.getCall(
-      call
+    `Prayer Call: ${
+      prayerTime.call
+    }\nNow: ${new Date().getTime()}\nPrayer Time: ${PrayerTimes.getCall(
+      prayerTime.call
     ).date.getTime()}`
   )
 );
