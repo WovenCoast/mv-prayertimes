@@ -1,6 +1,6 @@
 {
   "name": "mv-prayertimes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prayer times for Maldives",
   "main": "build/PrayerTimes.js",
   "scripts": {
