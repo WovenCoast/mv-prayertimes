@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true,
+    "target": "ES5",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationDir": "./types"
+  },
+  "exclude": [
+    "src/test.js"
+  ]
+}
