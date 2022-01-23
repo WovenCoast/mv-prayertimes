@@ -34,6 +34,10 @@ declare class MVPrayerTimes extends EventEmitter {
     getEntryFromDay(day: number): Entry;
     get today(): Entry;
     get nextPrayer(): DetailedTimestamp;
+    /**
+     * Event emitter types
+    */
+   emit(event: "prayer", payload: DetailedTimestamp)
 }
 interface Island {
     atollId: number;
