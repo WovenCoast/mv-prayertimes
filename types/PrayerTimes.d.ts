@@ -37,7 +37,11 @@ declare class MVPrayerTimes extends EventEmitter {
     /**
      * Event emitter types
     */
-   emit(event: "prayer", payload: DetailedTimestamp)
+   emit(event: "prayer", payload: DetailedTimestamp);
+
+   on(event: "prayer", payload: DetailedTimestamp);
+
+   off(event: "prayer", payload: DetailedTimestamp);
 }
 interface Island {
     atollId: number;
